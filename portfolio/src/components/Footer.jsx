@@ -1,7 +1,9 @@
-export default function Footer () {
+const Footer = () => {
     return (
         <div className="footer">
-            <h1> Put LinkedIN and Github links here</h1>
+            <h3> <a href="https://www.linkedin.com/in/gregoryswan/" target=" _blank" rel="noopener noreferrer"></a></h3>
         </div>
     )
 }
+
+export default Footer
