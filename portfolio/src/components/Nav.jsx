@@ -1,28 +1,21 @@
 import { Link } from 'react-router-dom'
 
 export default function Nav () {
+    
+
     return (
-        <div className="nav">
+        <div className="navbar">
+            <div className="nav-center"></div>
 
-            <Link to="/componentA">
-                <h2>About Me</h2>
-            </Link>
+            <Link to="/"><h3>Home</h3></Link>
 
-            <Link to="/componentB">
-                <h2>Contact</h2>
-            </Link>
+            <Link to="/projects"><h3>Projects</h3></Link>
 
-            <Link to="about">
-                <h2>Home</h2>
-            </Link>
+            <Link to="/contact"><h3>Contact</h3></Link>
 
-            <Link to="/">
-                <h2>Home</h2>
-            </Link>
+            <Link to="/about"><h3>About</h3></Link>
 
-            <Link to="footer">
-                <h3>Put LinkedIN and Github links here</h3>
-            </Link>
+         
 
 
         </div>

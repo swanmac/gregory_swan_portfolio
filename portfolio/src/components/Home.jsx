@@ -1,3 +1,16 @@
-export default function Home (props) {
-    return <h2> Welcome {props.userName}</h2>
+import React from 'react';
+import Introduction from '../components/Introduction'
+
+export default function Home () {
+    return(
+        <div className="home">
+            
+            <div>
+            
+            <Introduction />
+            </div>
+
+        </div>
+    )
+    
 }

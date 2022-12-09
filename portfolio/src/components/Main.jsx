@@ -1,20 +1,24 @@
 import { Route, Routes } from 'react-router-dom'
-import ComponentA from './ComponentA'
-import ComponentB from './ComponentB'
+import About from './About'
+import Contact from './Contact'
 import Home from './Home'
-import Footer from './Footer'
+import Nav from './Nav'
+import Projects from './Projects'
 
 
-export default function Main () {
-    const userName = "Greg"
+
+export default function () {
+    
     return (
-        <div className="main">
+        <div className="routes">
     <Routes>
-        <Route exact path="/" element={<Home userName={userName}/>}/>
-        <Route exact path="componentA" element={<ComponentA/>}/>
-        <Route exact path="componentB" element={<ComponentB/>}/>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="about" element={<About/>}/>
+        <Route exact path="contact" element={<Contact/>}/>
+        <Route exact path="projects" element={<Projects/>}/>
     </Routes>
 
         </div>
     )
 }
+
