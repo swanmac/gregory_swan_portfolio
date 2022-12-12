@@ -30,10 +30,14 @@
 
 .about-container {
   background-color: white;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 70px;
-  margin-left: 70px;
+  font-size: 20px;
+  display: flex;
+  width: fit-content;
+  align-self: center;
+  margin-top: 10px;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 8em;
 }
 
 .navbar {
@@ -45,11 +49,57 @@
   align-items: center;
 }
 
-.nav-center {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-gap: 5em;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 8em;
+}
+
+.p1bottom {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
+  padding-left: 50px;
+  padding-right:50px;
   align-items: center;
+  height: 3em;
+  margin-bottom: 3em;
+}
+
+.p2bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-left: 50px;
+  padding-right:50px;
+  align-items: center;
+  height: 3em;
+  margin-bottom: 3em;
+}
+
+.p3bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-left: 50px;
+  padding-right:50px;
+  align-items: center;
+  height: 3em;
+  margin-bottom: 3em;
+}
+
+.project2-text {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.project3-text {
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
 .footer {
