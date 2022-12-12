@@ -40,6 +40,17 @@
   margin-bottom: 8em;
 }
 
+.intro {
+  font-size: 20px;
+  display: flex;
+  width: fit-content;
+  align-self: center;
+  margin-top: 10px;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 8em;
+}
+
 .navbar {
   background-color: #daa753;
   display: flex;
