@@ -41,11 +41,19 @@
 
 .intro-top {
   font-size: 30px;
-  display: block;
-  animation: fadeInLeft 1.25s ease-in-out;
-  margin-left: .75%;
-  font-size: 1.25rem;
 }
+
+.intro-top {
+  position: relative;
+  /* right: 200px; */
+  animation: mymove 2s;
+}
+
+@keyframes mymove {
+  from {right: 250px;}
+  to {right: 0px;}
+}
+                  
 
 .intro {
   font-size: 20px;
@@ -146,14 +154,14 @@
   height: 3em;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 a:link {
   color: white;
