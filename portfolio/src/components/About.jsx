@@ -14,7 +14,10 @@ export default function About () {
             <p>Databases: Postgres, SQL, RESTful APIs</p>
             <p>Developer Tools: Node.js, Git, Github, Visual Studio Code, Postico 2</p>
         </ul>
+        
+
     </div>
+
 </div>
 
  )

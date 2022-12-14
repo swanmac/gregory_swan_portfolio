@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: rgb(126, 130, 219);
-  min-height: 70px;
+  /* background-color: rgb(126, 130, 219); */
+  min-height: 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,30 +29,50 @@
 }
 
 .about-container {
-  background-color: white;
   font-size: 20px;
   display: flex;
   width: fit-content;
   align-self: center;
   margin-top: 10px;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
   margin-bottom: 8em;
+}
+
+.intro-top {
+  font-size: 30px;
+  display: block;
+  animation: fadeInLeft 1.25s ease-in-out;
+  margin-left: .75%;
+  font-size: 1.25rem;
 }
 
 .intro {
   font-size: 20px;
-  display: flex;
+  /* display: flex;
   width: fit-content;
-  align-self: center;
+  align-self: center; */
   margin-top: 10px;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
   margin-bottom: 8em;
 }
 
+.intro-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+
+
 .navbar {
-  background-color: #daa753;
+  background-color: #ebe80e;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -113,13 +133,14 @@
   margin-right: 10em;
 }
 
+
 .footer {
   display: flex;
   flex-direction: row;
   justify-content:space-evenly;
   padding-left: 50px;
   padding-right:50px;
-  background-color: rgb(126, 130, 219);
+  background-color: #ebe80e;
   align-items: center;
   border-bottom: 2px solid black;
   height: 3em;
@@ -132,4 +153,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 106, 0);
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }

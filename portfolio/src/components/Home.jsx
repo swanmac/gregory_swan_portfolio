@@ -1,5 +1,9 @@
 import React from 'react';
 import Introduction from '../components/Introduction'
+import Projects from '../components/Projects'
+import About from '../components/About'
+import Contact from '../components/Contact'
+
 
 export default function Home () {
     return(
@@ -8,6 +12,9 @@ export default function Home () {
             <div>
             
             <Introduction />
+            <About />
+            
+            <Contact />
             </div>
 
         </div>
