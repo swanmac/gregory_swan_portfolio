@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 export default function Project1 () {
 
@@ -18,6 +19,13 @@ export default function Project1 () {
             
                <p>A display message indicates which turn is about to be played.</p>
                <p>A display mesage indicates winner or draw.</p>
+
+               <div className="project-button">
+         <Link to="/projects" >
+                        <button class="project-button">Projects</button>
+                    
+                    </Link>
+            </div>   
 
             <div className="p1bottom">
             <h3> <a href="https://perfect-actor12345.surge.sh/" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>

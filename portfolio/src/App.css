@@ -77,10 +77,21 @@
   font-size: 30px;
 }
 
+.project-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
 
 
 .navbar {
-  background-color: #ebe80e;
+  background-color: #d4d42d;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -148,7 +159,7 @@
   justify-content:space-evenly;
   padding-left: 50px;
   padding-right:50px;
-  background-color: #ebe80e;
+  background-color: #d4d42d;
   align-items: center;
   border-bottom: 2px solid black;
   height: 3em;
@@ -180,4 +191,22 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+.skillIcons{
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.skillIcons1{
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skillIcons svg{
+  height: 40px;
+  fill: var(--wrapperColor)
 }

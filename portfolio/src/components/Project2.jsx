@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 export default function Project2 () {
 
@@ -17,6 +18,13 @@ export default function Project2 () {
             <p>If the answer choice selection turns red and is incorrect, no score unit will be added to the Your Score counter.</p>
             <p>New true false questions will be generated after each question is answered, regardless if the answer is correct or incorrect until the total questions equals 10 of 10.</p>
             <p>At the point when the Question total reaches 10 of 10 (Question 10/10) the player will then have the opportunity to select the "Do You Want To Play Again" button at the bottom of the page to restart the game.</p>
+
+            <div className="project-button">
+            <Link to="/projects" >
+                        <button class="project-button">Projects</button>
+                    
+                    </Link>
+            </div>   
 
 
             <div className="p2bottom">
