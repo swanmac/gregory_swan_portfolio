@@ -36,8 +36,7 @@ export default function About () {
     <IconReact />
     <IconCSS />
     <IconJS />
-    <IconPython />
-    <IconExpress />
+    
     </div>
     
     <div className="skillIcons">
@@ -45,10 +44,16 @@ export default function About () {
     <IconGit />
     <IconMySQL />
     <IconNodeJS />
+    
+    </div>
+
+    <div className="skillIcons">    
+    <IconPython />
+    <IconExpress />
     <IconPostgres />
     <IconSequelize />
 
-        </div>
+    </div>    
         </section>
     </about>
 
