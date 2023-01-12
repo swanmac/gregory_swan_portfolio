@@ -16,7 +16,7 @@ export default function Nav () {
 
             <Link to="/contact"><h3>Contact</h3></Link>
 
-            <Link to="/resume-greg.pdf" target=" _blank" rel="noopener noreferrer"><h3>Resume</h3></Link>
+            <Link to="/greg-swan-resume.pdf" target=" _blank" rel="noopener noreferrer"><h3>Resume</h3></Link>
 
 
         </div>
