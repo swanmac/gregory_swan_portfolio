@@ -7,6 +7,7 @@ import Projects from './Projects'
 import Project1 from './Project1'
 import Project2 from './Project2'
 import Project3 from './Project3'
+import Project4 from './Project4'
 
 
 
@@ -22,6 +23,7 @@ export default function () {
         <Route exact path="project1" element={<Project1/>}/>
         <Route exact path="project2" element={<Project2/>}/>
         <Route exact path="project3" element={<Project3/>}/>
+        <Route exact path="project4" element={<Project4/>}/>
     </Routes>
 
         </div>

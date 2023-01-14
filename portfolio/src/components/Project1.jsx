@@ -6,7 +6,7 @@ export default function Project1 () {
     return ( 
     
         <div className="project1-text">
-          <h2> Project-1 Tic Tac Toe</h2>
+          <h2>Tic Tac Toe</h2>
             <img src="https://sunbizlocal.com/tt.png"></img>
             <p>
             A tic tac toe game built with HTML, CSS, and JavaScript.</p>

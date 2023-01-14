@@ -6,9 +6,9 @@ export default function Project3 () {
     return ( 
 
         <div className="project3-text">
-          <h2> Project-3 The Cocktail Selector</h2>
+          <h2>The Cocktail Selector</h2>
             <img src="https://sunbizlocal.com/cc.png"></img>
-            <p>React App: Built with React using third party API.</p>
+            <p>An application created using the React framework connected to a third party API.</p>
             <h3>Project Overview</h3>
             <p>The Cocktail Selector is a website that provides detailed information on a list of different cocktails enabling the user to make an informed decision when choosing a cocktail.</p>
             <p>The Layout - Navigation links at the top of the page are to "Home" the Home page and "About" the About page. Below the navigation links is the Search Form. The Search Form is labeled "Search Your Favorite Cocktail" and contains a text input bar and a Start Over button.</p>
