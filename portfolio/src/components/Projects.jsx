@@ -23,7 +23,7 @@ export default function Projects () {
         <div className="project p1"> 
         <Link to="/project4"><h3>Metal Geek</h3></Link>
         <p>A full-stack application created using the React (front end) and Django (back end) built with a Postgresql database.</p>
-        <img src="https://sunbizlocal.com/metal.png" width="300" height="220"></img></div>
+        <img src="https://sunbizlocal.com/met.png" width="300" height="220"></img></div>
 
 </div>
  )           

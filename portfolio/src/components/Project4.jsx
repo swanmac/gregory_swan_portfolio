@@ -7,7 +7,7 @@ export default function Project4 () {
 
         <div className="project3-text">
           <h2>Metal Geek</h2>
-            <img src="https://sunbizlocal.com/metal.png"></img>
+            <img src="https://sunbizlocal.com/met.png"></img>
             <p>A full-stack application created using React (front end) and Django (back end) built with a Postgresql database.</p>
             <h3>Project Overview</h3>
             <p>This website was designed to allow all guitarists (new and seasoned) to learn about the actual guitar rigs that their favorite guitarists are or were using.</p>
