@@ -5,7 +5,7 @@ export default function Project4 () {
 
     return ( 
 
-        <div className="project1-text">
+        <div className="project4-text">
           <h2>Metal Geek</h2>
             <img src="https://sunbizlocal.com/mt.png"></img>
             <p>A full-stack application created using React (front end) and Django (back end) built with a Postgresql database.</p>

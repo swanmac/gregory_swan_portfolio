@@ -145,12 +145,19 @@
 
 .project2-text {
   margin-left: 10em;
-  margin-right: 10em;
+  margin-right: 10em; 
 }
 
 .project3-text {
   margin-left: 10em;
   margin-right: 10em;
+}
+
+.project4-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .footer-container {
