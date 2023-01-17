@@ -101,7 +101,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
   grid-gap: 5em;
   margin-top: 5em;
   margin-left: 5em;
@@ -144,18 +144,19 @@
 }
 
 .project2-text {
-  margin-left: 10em;
-  margin-right: 10em; 
+  margin-left: 11em;
+  margin-right: 11em;
 }
 
 .project3-text {
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 11em;
+  margin-right: 11em;
 }
 
 .project4-text {
-  height: 100vh;
-  /* top: 0; */
+  /* height: 100vh; */
+  margin-left: 11em;
+  margin-right: 11em;
 }
 
 .footer-container {
@@ -230,4 +231,17 @@ a:active {
 .contact {
   padding-top: 2em;
   padding-bottom: 15em;
+}
+
+/* ///////////////////RESPONSIVE DESIGN //////////////////////*/
+
+@media only screen and (min-width: 768px) {
+  /* .about-container {
+    font-size: 20px;
+    margin-left: 2em;
+    margin-right: 2em;
+  } */
+
+
+
 }
