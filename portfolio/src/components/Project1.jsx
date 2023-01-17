@@ -27,6 +27,10 @@ export default function Project1 () {
                     </Link>
             </div>   
 
+            <br />
+            <br />
+            <br />
+
             <div className="p1bottom">
             <h3> <a href="https://perfect-actor12345.surge.sh/" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
             

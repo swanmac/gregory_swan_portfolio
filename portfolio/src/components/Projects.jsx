@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Projects () {
     return(
-        <div className="grid">
+        <div className="grid" id='center'>
         <div className="project p1">    
         <Link to="/project1"><h3>Tic Tac Toe</h3></Link>
         <p>Check out this fun interactive game with varied outcomes created with JavaScript, HTML, and CSS.</p>
@@ -17,7 +17,7 @@ export default function Projects () {
 
         <div className="project p1"> 
         <Link to="/project3"><h3>The Cocktail Selector</h3></Link>
-        <p>An application created using the React framework and CSS, connected to a third party API.</p>
+        <p>An application created using the React framework, JavaScript and CSS, connected to a third party API.</p>
         <img src="https://sunbizlocal.com/coct.png" width="300" height="220"></img></div>
 
         <div className="project p1"> 

@@ -7,9 +7,11 @@ export default function Project2 () {
     
         <div className="project2-text">
           <h2>Trivia Junction</h2>
-            <img src="https://sunbizlocal.com/tv.png"></img>
-            <p>A trivia game built with HTML, CSS, and JavaScript.</p>
-                <h3>Project Overview</h3>
+            <img src="https://sunbizlocal.com/tv.png" className="trivia-photo"></img>
+            <p>
+            A trivia game built with HTML, CSS, and JavaScript.</p>
+            <h3>Project Overview</h3>
+
             <p>Trivia game, each round with ten questions from various categories and difficulty levels separated into true/false questions.</p>    
             <p>The game begins with the game board showing the question counter on the top left at (Question 1/10) and the score showing 0 in the Your Score section in the top right.</p>
             <p>The true/false questions will load just below the question counter and the score. The player will examine the question and decide on a true/false answer. There are two container (buttons) below the question labeled (True) and (False). The player will make a choice to select either the True or False container (button) to answer the true/false question correctly.</p>
@@ -26,6 +28,9 @@ export default function Project2 () {
                     </Link>
             </div>   
 
+            <br />
+            <br />
+            <br />
 
             <div className="p2bottom">
             <h3> <a href="https://dramatic-flame99.surge.sh/index.html" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>

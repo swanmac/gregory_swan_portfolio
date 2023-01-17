@@ -22,6 +22,9 @@ export default function Project3 () {
                     </Link>
             </div>   
             
+            <br />
+            <br />
+            <br />
 
 
         <div className="p3bottom">
