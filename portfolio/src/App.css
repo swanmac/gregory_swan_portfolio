@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,10 +11,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  /* background-color: rgb(126, 130, 219); */
+/* .App-header {
+  background-color: rgb(126, 130, 219); 
   min-height: 1px;
   display: flex;
   flex-direction: column;
@@ -22,11 +22,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 .about-container {
   font-size: 20px;
@@ -49,6 +49,7 @@
   animation: mymove 2s;
 }
 
+/* Animation Move */
 @keyframes mymove {
   from {right: 250px;}
   to {right: 0px;}
@@ -90,14 +91,14 @@
 
 
 
-.navbar {
+/* .navbar {
   background-color: rgb(45, 45, 212);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   height:40px;
   align-items: center;
-}
+} */
 
 .grid {
   display: grid;
@@ -143,6 +144,11 @@
   margin-bottom: 3em;
 }
 
+.project1-text {
+  margin-left: 11em;
+  margin-right: 11em;
+}
+
 .project2-text {
   margin-left: 11em;
   margin-right: 11em;
@@ -160,13 +166,15 @@
 }
 
 .footer-container {
-  position: fixed;
+  /* position: fixed; */
   padding: 0px 0px 0px 0px;
   bottom: -10px;
-  width: 100%;
-  /* Height of the footer*/
-  height: 40px;
+  /* width: 100%; */
+  /* Height of the footer */
+  /* height: 40px; */
 }
+
+/* fixed h-40px w-full  */
 
 .footer {
   display: flex;
@@ -235,10 +243,10 @@ a:active {
 
 /* ///////////////////RESPONSIVE DESIGN //////////////////////*/
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
 
 
 
 
 
-}
+} */

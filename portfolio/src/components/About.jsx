@@ -3,7 +3,7 @@ import IconReact from "./SVG/IconReact";
 import IconCSS from "./SVG/IconCSS";
 import IconJS from "./SVG/IconJS";
 import IconPython from "./SVG/IconPython";
-import IconExpress from "./SVG/IconExpress";
+import IconVScode from "./SVG/IconVScode";
 import IconDJ from "./SVG/IconDJ";
 import IconGit from "./SVG/IconGit";
 import IconMySQL from "./SVG/IconMySQL";
@@ -16,10 +16,13 @@ export default function About () {
         <about>
 <div className="about-container">
     <div className="about-info">
+        <div className='pt-20'>
         <h1>About</h1>
         <p>
         Software developer with extensive experience in technical SEO who believes that user experience and optimization are of equal importance. Trained as a full stack web developer. Provide great value with leadership skills, critical thinking, and efficient solutions.  Exceptional communication and thorough problem solving to create clean, precise code that will make a positive impact.
         </p>
+        </div>
+        <div className='pt-10'>
         <h2>Skills</h2>
         <ul>
             <p>Programming Languages: JavaScript, Html, CSS, Python</p>
@@ -27,10 +30,11 @@ export default function About () {
             <p>Databases: Postgres, SQL, RESTful APIs</p>
             <p>Developer Tools: Node.js, Git, Github, Visual Studio Code, Postico 2</p>
         </ul>
+        </div>
     </div>
 </div>
 
-   <section>
+   <section className='pt-20'>
     <div className="skillIcons">
     <IconHtml />
     <IconReact />
@@ -49,11 +53,12 @@ export default function About () {
 
     <div className="skillIcons">    
     <IconPython />
-    <IconExpress />
+    <IconVScode />
     <IconPostgres />
     <IconSequelize />
 
-    </div>    
+    </div>   
+     
         </section>
     </about>
 
