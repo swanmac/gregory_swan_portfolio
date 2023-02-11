@@ -26,7 +26,8 @@ export default function Introduction () {
                     
                     </Link>
                     </div>
-                </div>    
+                </div>  
+                  
             </div>        
          </div>
          </div> 

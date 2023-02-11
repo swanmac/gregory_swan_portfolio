@@ -21,12 +21,7 @@ export default function Project2 () {
             <p>New true/false questions will be generated after each question is answered, regardless if the answer is correct or incorrect until the total questions equals 10 of 10.</p>
             <p className='pb-5'>At the point when the Question total reaches 10 of 10 (Question 10/10) the player will then have the opportunity to select the "Do You Want To Play Again" button at the bottom of the page to restart the game.</p>
 
-            <div className="project-button">
-            <Link to="/projects" >
-                        <button class="project-button">Projects</button>
-                    
-                    </Link>
-            </div>   
+
 
             <br />
             <br />

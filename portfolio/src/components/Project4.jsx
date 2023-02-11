@@ -18,12 +18,7 @@ export default function Project4 () {
             <p>Select (or click on) the Rig Details and you will be brought to the Rig Design Details</p> <p> Which includes a detailed description of how the rig is laid out. </p> <p>Tuning: any special tuning, guitar pickup details, string details, etc...</p>
             <p className='pb-5'>We have also included an instrument gear database that is full CRUD.</p>
 
-            <div className="project-button">
-         <Link to="/projects" >
-                        <button class="project-button">Projects</button>
-                    
-                    </Link>
-            </div>   
+ 
             
             <br />
             <br />

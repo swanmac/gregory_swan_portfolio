@@ -21,12 +21,7 @@ export default function Project1 () {
                <p>A display message indicates which turn is about to be played.</p>
                <p className='pb-5'>A display message indicates winner or draw.</p>
 
-               <div className="project-button">
-         <Link to="/projects" >
-                        <button class="project-button">Projects</button>
-                    
-                    </Link>
-            </div>   
+
 
             <br />
             <br />

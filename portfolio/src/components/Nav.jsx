@@ -1,50 +1,40 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import { FiMenu } from 'react-icons/fi'
 
 export default function Nav () {
-    const [nav, setNav] = useState(false);
+    
+    const [open, setOpen] = useState(false);
 
-    const handleNav = () => {
-        setNav(!nav);
-    }
 
     return (
-        <div className='flex justify-between items-center h-30 max-w-[1240px] mx-auto px-4 text-white text-2xl'>
-            <img className='mx-auto flex items-center' src="https://sunbizlocal.com/gs.png"></img>
+        
+        <header className='py-2'>
+        <div className="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
+          
+            <img src="https://sunbizlocal.com/gs.png" width={300} height={64} />
+
+            <FiMenu className="lg:hidden block h-6 w-6 cursor-pointer" onClick={() => setOpen(!open)} />
+
+            <nav className={`${open ? "block" : "hidden"} w-full lg:flex lg:items-center lg:w-auto`}>
            
-            <ul className='hidden md:flex'>
-                <l1 className='p-4'>
+            <ul className='text-xl lg:flex lg:justify-between'>
+                <l1 className='lg:px-5 py-2 block'>
             <Link to="/"><h3>Home</h3></Link></l1>
-                <l1 className='p-4'>
+                <l1 className='lg:px-5 py-2 block'>
             <Link to="/projects"><h3>Projects</h3></Link></l1>
-                <l1 className='p-4'>
+                <l1 className='lg:px-5 py-2 block'>
             <Link to="/about"><h3>About</h3></Link></l1>
-                <l1 className='p-4'>
+                <l1 className='lg:px-5 py-2 block'>
             <Link to="/contact"><h3>Contact</h3></Link></l1>
-                <l1 className='p-4'>
+                <l1 className='lg:px-5 py-2 block'>
             <Link to="/greg-swan-resume.pdf" target=" _blank" rel="noopener noreferrer"><h3>Resume</h3></Link></l1>
             </ul>
 
-            <div onClick={handleNav} className='block md:hidden'>
-            {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30} />}
+            </nav>
             
-            </div>
-            <ul className={nav ? 'fixed left-0 top-0 w-[20%] flex flex-col justify-content-left' : 'ease-in-out duration-500 fixed left-[-100%]'}>
-            
-                <l1 className='text-base p-2'>
-                <Link to="/">Home</Link></l1>
-                <l1 className='text-base p-2'>
-                <Link to="/projects">Projects</Link></l1>
-                <l1 className='text-base p-2'>
-                <Link to="/about">About</Link></l1>
-                <l1 className='text-base p-2'>
-                <Link to="/contact">Contact</Link></l1>
-                <l1 className='text-base p-2'>
-                <Link to="/greg-swan-resume.pdf" target=" _blank" rel="noopener noreferrer">Resume</Link></l1>
-              </ul>
-
 
         </div>
+        </header>
     )
 }
