@@ -28,7 +28,7 @@
   color: #61dafb;
 } */
 
-.about-container {
+/* .about-container {
   font-size: 20px;
   display: flex;
   width: fit-content;
@@ -37,7 +37,7 @@
   margin-left: 10em;
   margin-right: 10em;
   
-}
+} */
 
 .intro-top {
   font-size: 30px;
@@ -56,16 +56,16 @@
 }
                   
 
-.intro {
+/* .intro {
   font-size: 20px;
   /* display: flex;
   width: fit-content;
   align-self: center; */
-  margin-top: 10px;
+  /* margin-top: 10px;
   margin-left: 10em;
   margin-right: 10em;
   margin-bottom: 8em;
-}
+} */ */
 
 .intro-button {
   background-color: #4CAF50; /* Green */
@@ -145,24 +145,24 @@
 }
 
 .project1-text {
-  margin-left: 11em;
-  margin-right: 11em;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .project2-text {
-  margin-left: 11em;
-  margin-right: 11em;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .project3-text {
-  margin-left: 11em;
-  margin-right: 11em;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .project4-text {
   /* height: 100vh; */
-  margin-left: 11em;
-  margin-right: 11em;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .footer-container {
