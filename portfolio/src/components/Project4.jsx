@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import GoToTop from './GoToTop';
 
 export default function Project4 () {
 
@@ -35,6 +35,7 @@ export default function Project4 () {
             
             <h3> <a href="https://github.com/swanmac/Metal_Geek/tree/main/metal-geek" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>
             </div>
+            <GoToTop />
     </div>        
 
 

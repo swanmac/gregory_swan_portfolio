@@ -1,4 +1,5 @@
 import React from 'react';
+import GoToTop from './GoToTop';
 
 
 export default function Project1 () {
@@ -31,12 +32,8 @@ export default function Project1 () {
             <h3> <a href="https://github.com/swanmac/Tic-Tac-Toe" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>
             </div>
             </div>
+            <GoToTop />
         </div>
     )
 }
 
-
-//install
-//index
-//import
-//initialize

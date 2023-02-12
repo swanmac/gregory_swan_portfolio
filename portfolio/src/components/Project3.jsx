@@ -1,4 +1,5 @@
 import React from 'react';
+import GoToTop from './GoToTop';
 
 export default function Project3 () {
 
@@ -30,6 +31,7 @@ export default function Project3 () {
             
             <h3> <a href="https://github.com/swanmac/Cocktail_Selector" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>
             </div>
+            <GoToTop />
     </div>        
 
 

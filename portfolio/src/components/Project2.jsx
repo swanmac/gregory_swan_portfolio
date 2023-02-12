@@ -1,4 +1,5 @@
 import React from 'react';
+import GoToTop from './GoToTop';
 
 export default function Project2 () {
 
@@ -36,7 +37,7 @@ export default function Project2 () {
             </div>
             <br />
             <br />
-
+            <GoToTop />
     </div>
     )
  }           
