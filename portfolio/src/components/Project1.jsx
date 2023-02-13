@@ -26,10 +26,11 @@ export default function Project1 () {
             <br />
             <br />
 
-            <div className="p1bottom">
+            <div className="p1bottom pb-20">
             <h3> <a href="https://perfect-actor12345.surge.sh/" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
             
             <h3> <a href="https://github.com/swanmac/Tic-Tac-Toe" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>
+            
             </div>
             </div>
             <GoToTop />

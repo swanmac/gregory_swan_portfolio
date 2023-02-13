@@ -30,13 +30,12 @@ export default function Project2 () {
             <br />
             <br />
 
-            <div className="p2bottom">
+            <div className="p2bottom pb-20">
             <h3> <a href="https://dramatic-flame99.surge.sh/index.html" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
             
             <h3> <a href="https://github.com/swanmac/Trivia_Junction" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>
             </div>
-            <br />
-            <br />
+            
             <GoToTop />
     </div>
     )

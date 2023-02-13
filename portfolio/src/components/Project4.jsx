@@ -30,7 +30,7 @@ export default function Project4 () {
             
 
 
-        <div className="p3bottom">
+        <div className="p3bottom pb-20">
             <h3> <a href="https://metal-geek.netlify.app/" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
             
             <h3> <a href="https://github.com/swanmac/Metal_Geek/tree/main/metal-geek" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>

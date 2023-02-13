@@ -26,7 +26,7 @@ export default function Project3 () {
             <br />
 
 
-        <div className="p3bottom">
+        <div className="p3bottom pb-20">
             <h3> <a href="https://prickly-credit99.surge.sh/" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
             
             <h3> <a href="https://github.com/swanmac/Cocktail_Selector" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>

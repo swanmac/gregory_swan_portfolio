@@ -19,16 +19,17 @@ export default function About () {
         <div className='pt-20'>
         <h1 className='text-2xl'>About</h1>
         <p className='md:text-xl max-w-md mx-auto pb-5'>
-        Software developer with extensive experience in technical SEO who believes that user experience and optimization are of equal importance. Trained as a full stack web developer. Provide great value with leadership skills, critical thinking, and efficient solutions.  Exceptional communication and thorough problem solving to create clean, precise code that will make a positive impact.
+        Digital marketer turned web developer who brings technical knowledge, enthusiasm and a dedicated work ethic to every team. Successfully trained as a full stack web developer. Provide great value with leadership skills, critical thinking, and efficient solutions.  Exceptional communication and thorough problem solving to create clean, precise code that will make a positive impact.
         </p>
         </div>
         <div className='pt-10'>
         <h2 className='text-2xl'>Skills</h2>
         <ul>
-            <p className='md:text-xl max-w-md mx-auto pb-5'>Programming Languages: JavaScript, Html, CSS, Python.
-            Frameworks: React, Express, Django
-            Databases: Postgres, SQL, RESTful APIs
-            Developer Tools: Node.js, Git, Github, Visual Studio Code, Postico 2</p>
+            <p className='md:text-xl max-w-md mx-auto pb-5'>
+            <li>Programming Languages: JavaScript, Html, Python </li>
+            <li>Frameworks: React, Express, Django, Tailwind Css </li>
+            <li>Databases: Postgres, SQL, RESTful APIs </li>
+            <li>Developer Tools: Node.js, Git, Github, Visual Studio Code, Postico 2</li></p>
         </ul>
         </div>
     </div>
