@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 export default function Introduction () {
     return (
-        <div className= 'pt-40'>
+        <div className= 'pt-10'>
         <div className="intro-container">
         <div className="intro-top">
         <div className="slide-in-left"></div>    
@@ -19,6 +19,14 @@ export default function Introduction () {
          <p className='md:text-xl max-w-md mx-auto pb-10'>Please see my portfolio of projects. I am confident that I will be an asset to your organization.</p>
          </div>
 
+         <div className="project-button">
+         <Link to="/projects" >
+                        <button class="project-button">Projects</button>
+                    
+                    </Link>
+            </div>  
+        <br />
+        <br /> 
  
                   
             </div>        

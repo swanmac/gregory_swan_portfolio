@@ -7,12 +7,12 @@ export default function Project1 () {
     return ( 
     
         <div className="project1-text">
-          <div className='mx-auto'>  
+          <div className='mx-auto pt-5'>  
           <h2 className='text-2xl'>Tic Tac Toe</h2>
             <img className='mx-auto flex items-center pt-4 w-300px h-220px' src="https://sunbizlocal.com/tictac.png"></img>
-            <p className='md:text-xl max-w-lg mx-auto pb-5'>
+            <p className='md:text-xl max-w-lg mx-auto pt-5 pb-5'>
             A tic tac toe game built with HTML, CSS, and JavaScript.</p>
-            <h3 className='text-2xl pt-3 pb-3'>Game Overview</h3>
+            <h3 className='text-2xl text-[#4CAF50] pt-3 pb-3'>Game Overview</h3>
             
                 <p className='md:text-xl max-w-lg mx-auto pb-5'>A user will be able to click on different squares to make a move.
                Every click will alternate between marking an X and O
@@ -26,7 +26,7 @@ export default function Project1 () {
             <br />
             <br />
 
-            <div className="p1bottom pb-20">
+            <div className="p1bottom md:text-xl pb-20">
             <h3> <a href="https://perfect-actor12345.surge.sh/" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
             
             <h3> <a href="https://github.com/swanmac/Tic-Tac-Toe" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>

@@ -5,12 +5,18 @@ export default function Project2 () {
 
     return ( 
     
-        <div className="project2-text">
+        <div className="project2-text pt-5">
           <h2 className='text-2xl'>Trivia Junction</h2>
             <img className='mx-auto flex items-center pt-4 w-300 h-220 trivia-photo' src="https://sunbizlocal.com/tv.png"></img>
-            <p className='md:text-xl max-w-lg mx-auto pb-5'>
+            <p className='md:text-xl max-w-lg mx-auto pt-5 pb-5'>
             A trivia game built with HTML, CSS, and JavaScript.</p>
-            <h3 className='text-2xl pt-3 pb-3'>Project Overview</h3>
+
+            <h3 className='text-2xl text-[#4CAF50] pt-3 pb-3'>Project Overview</h3>
+
+            <p className='md:text-xl max-w-lg mx-auto pb-5'>The project was created with JavaScript pulling data from a third party API. The API url could generate different types of trivia questions from the database. </p>
+
+
+            <h3 className='text-2xl text-[#4CAF50] pt-3 pb-3'>Game Overview</h3>
 
             <p className='md:text-xl max-w-lg mx-auto pb-5'>Trivia game, each round with ten questions from various categories and difficulty levels separated into true/false questions.    
             The game begins with the game board showing the question counter on the top left at (Question 1/10) and the score showing 0 in the Your Score section in the top right.
@@ -30,7 +36,7 @@ export default function Project2 () {
             <br />
             <br />
 
-            <div className="p2bottom pb-20">
+            <div className="p2bottom md:text-xl pb-20">
             <h3> <a href="https://dramatic-flame99.surge.sh/index.html" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
             
             <h3> <a href="https://github.com/swanmac/Trivia_Junction" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>

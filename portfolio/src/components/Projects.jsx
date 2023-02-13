@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import GoToTop from './GoToTop';
 
 
 export default function Projects () {
     return(
-        <div className="grid-cols-1 md:grid-cols-2">
+        
+            <div className="space-y-8 lg:grid lg:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0 pt-5">
         <div className="project p1">    
         <Link to="/project1"><h3 className='text-2xl'>Tic Tac Toe</h3></Link>
         <p className='md:text-xl max-w-lg mx-auto pb-5 px-10'>Check out this fun interactive game with varied outcomes created with JavaScript, HTML, and CSS.</p>
@@ -29,7 +31,7 @@ export default function Projects () {
         <br />
         <br />
         <br />
-
+        <GoToTop />
 </div>
  )           
 

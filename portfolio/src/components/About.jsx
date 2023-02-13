@@ -14,7 +14,7 @@ import IconSequelize from "./SVG/IconSequelize";
 export default function About () {
     return(
         <about>
-<div className="about-container">
+<div className="bg-gradient-to-br from-gray-800 to-blue-600 ">
     <div className="about-info">
         <div className='pt-20'>
         <h1 className='text-2xl'>About</h1>
@@ -23,7 +23,7 @@ export default function About () {
         </p>
         </div>
         <div className='pt-10'>
-        <h2 className='text-2xl'>Skills</h2>
+        <h2 className='text-2xl'>Tech Skills</h2>
         <ul>
             <p className='md:text-xl max-w-md mx-auto pb-5'>
             <li>Programming Languages: JavaScript, Html, Python </li>
@@ -35,7 +35,7 @@ export default function About () {
     </div>
 </div>
 
-   <section className='pt-20'>
+   <section className='bg-gradient-to-br from-gray-900 to-gray-600 pt-20'>
     <div className="skillIcons">
     <IconHtml />
     <IconReact />

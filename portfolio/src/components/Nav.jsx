@@ -19,15 +19,15 @@ export default function Nav () {
             <nav className={`${open ? "block" : "hidden"} w-full lg:flex lg:items-center lg:w-auto`}>
            
             <ul className='text-xl lg:flex lg:justify-between'>
-                <l1 className='lg:px-5 py-2 block'>
+                <l1 className='lg:px-5 py-1 block'>
             <Link to="/"><h3>Home</h3></Link></l1>
-                <l1 className='lg:px-5 py-2 block'>
+                <l1 className='lg:px-5 py-1 block'>
             <Link to="/projects"><h3>Projects</h3></Link></l1>
-                <l1 className='lg:px-5 py-2 block'>
+                <l1 className='lg:px-5 py-1 block'>
             <Link to="/about"><h3>About</h3></Link></l1>
-                <l1 className='lg:px-5 py-2 block'>
+                <l1 className='lg:px-5 py-1 block'>
             <Link to="/contact"><h3>Contact</h3></Link></l1>
-                <l1 className='lg:px-5 py-2 block'>
+                <l1 className='lg:px-5 py-1 block'>
             <Link to="/greg-swan-resume.pdf" target=" _blank" rel="noopener noreferrer"><h3>Resume</h3></Link></l1>
             </ul>
 

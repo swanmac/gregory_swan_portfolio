@@ -182,7 +182,7 @@
   justify-content:space-evenly;
   padding-left: 50px;
   padding-right:50px;
-  background-color: #4CAF50;
+  /* background-color: #4CAF50; */
   align-items: center;
   border-bottom: 2px solid black;
   height: 3em;
