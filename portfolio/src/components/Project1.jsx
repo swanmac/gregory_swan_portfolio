@@ -8,7 +8,7 @@ export default function Project1 () {
     
         <div className="project1-text">
           <div className='mx-auto pt-5'>  
-          <h2 className='text-2xl'>Tic Tac Toe</h2>
+          <h2 className='text-2xl text-[#4CAF50]'>Tic Tac Toe</h2>
             <img className='mx-auto flex items-center pt-4 w-300px h-220px' src="https://sunbizlocal.com/tictac.png"></img>
             <p className='md:text-xl max-w-lg mx-auto pt-5 pb-5'>
             A tic tac toe game built with HTML, CSS, and JavaScript.</p>
