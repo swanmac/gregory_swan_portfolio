@@ -33,7 +33,7 @@ export default function Project4 () {
             <br />
             <br />
             Which includes a detailed description of how the rig is laid out. Tuning: any special tuning, guitar pickup details, string details, etc...
-            We have also included an instrument gear database that is full CRUD.</p>
+            We have also included an instrument gear database that is full CRUD (Create, Read, Update, Delete).</p>
 
  
             
