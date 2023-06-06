@@ -11,7 +11,7 @@ export default function Introduction () {
             <h2 className='md:text-5xl sm:text-4xl text-2xl font-bold md:py-6'>Full Stack Developer</h2>
         </div>
         <div className="intro">
-         <p><img className='mx-auto flex items-center' src="https://sunbizlocal.com/gs.jpg"></img> </p>  
+         <p><img className='mx-auto flex items-center' src="https://sunbizlocal.com/gs.jpg" alt="developer" ></img> </p>  
          <h3 className='md:text-xl max-w-md mx-auto pb-5 pt-10'> I'm Greg Swan
          a Full-Stack Software Developer</h3>
          <div className='md:mx-auto'>

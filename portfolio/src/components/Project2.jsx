@@ -7,7 +7,7 @@ export default function Project2 () {
     
         <div className="project2-text pt-5">
           <h2 className='text-2xl text-[#4CAF50]'>Trivia Junction</h2>
-            <img className='mx-auto flex items-center pt-4 w-300 h-220 trivia-photo' src="https://sunbizlocal.com/tv.png"></img>
+            <img className='mx-auto flex items-center pt-4 w-300 h-220 trivia-photo' src="https://sunbizlocal.com/tv.png" alt="project 2" ></img>
             <p className='md:text-xl max-w-lg mx-auto pt-5 pb-5'>
             A trivia game built with HTML, CSS, and JavaScript.</p>
 

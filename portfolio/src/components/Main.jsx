@@ -2,7 +2,6 @@ import { Route, Routes } from 'react-router-dom'
 import About from './About'
 import Contact from './Contact'
 import Home from './Home'
-import Nav from './Nav'
 import Projects from './Projects'
 import Project1 from './Project1'
 import Project2 from './Project2'
@@ -11,7 +10,7 @@ import Project4 from './Project4'
 
 
 
-export default function () {
+export default function Main () {
     
     return (
         <div className="routes">

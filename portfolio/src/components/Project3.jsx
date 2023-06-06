@@ -7,7 +7,7 @@ export default function Project3 () {
 
         <div className="project3-text pt-5">
           <h2 className='text-2xl text-[#4CAF50]'>The Cocktail Selector</h2>
-            <img className='mx-auto flex items-center pt-4 w-300 h-220' src="https://sunbizlocal.com/cc.png"></img>
+            <img className='mx-auto flex items-center pt-4 w-300 h-220' src="https://sunbizlocal.com/cc.png" alt="project 3" ></img>
             <p className='md:text-xl max-w-lg mx-auto pb-5 pt-3'>An application created using the React framework connected to a third party API.</p>
             <h3 className='text-2xl text-[#4CAF50] pt-3 pb-3'>Project Overview</h3>
 
