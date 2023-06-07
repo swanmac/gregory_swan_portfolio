@@ -7,7 +7,7 @@ export default function Project3 () {
 
         <div className="project3-text pt-5">
           <h2 className='text-2xl text-[#4CAF50]'>The Cocktail Selector</h2>
-            <img className='mx-auto flex items-center pt-4 w-300 h-220' src="https://sunbizlocal.com/cc.png" alt="project 3" ></img>
+            <img className='mx-auto flex items-center pt-4 w-300 h-220' src="https://sunbizlocal.com/cc2.png" alt="project 3" ></img>
             <p className='md:text-xl max-w-lg mx-auto pb-5 pt-3'>An application created using the React framework connected to a third party API.</p>
             <h3 className='text-2xl text-[#4CAF50] pt-3 pb-3'>Project Overview</h3>
 
@@ -22,7 +22,7 @@ export default function Project3 () {
             The Layout - Navigation links at the top of the page are to "Home" the Home page and "About" the About page. Below the navigation links is the Search Form. The Search Form is labeled "Search Your Favorite Cocktail" and contains a text input bar and a Start Over button.
             <br />
             <br />
-            Search Form - The search form allows the user to select a single or group of cocktails by entering the first few letters in the name of the cocktail into the text input bar. The Start Over button is used to reset the search form or start over.</p>
+            Search Form - The search form allows the user to select a single or group of cocktails by entering the first or any letter in the name of the cocktail into the text input bar.</p>
             
  
  
@@ -33,9 +33,9 @@ export default function Project3 () {
 
 
         <div className="p3bottom md:text-xl pb-20">
-            <h3> <a href="https://prickly-credit99.surge.sh/" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
+            <h3> <a href="https://the-cocktail-selector.netlify.app/" target=" _blank" rel="noopener noreferrer">Deployed Site</a></h3>
             
-            <h3> <a href="https://github.com/swanmac/Cocktail_Selector" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>
+            <h3> <a href="https://github.com/swanmac/the-cocktail-selector" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>
             </div>
             <GoToTop />
     </div>        

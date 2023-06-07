@@ -13,7 +13,7 @@ export default function Project2 () {
 
             <h3 className='text-2xl text-[#4CAF50] pt-3 pb-3'>Project Overview</h3>
 
-            <p className='md:text-xl max-w-lg mx-auto pb-5'>The project was created with JavaScript pulling data from a third party API. The API url could generate different types of trivia questions from the database. </p>
+            <p className='md:text-xl max-w-lg mx-auto pb-5'>The project was created with JavaScript pulling data from a third party API. The API url will generate different types of trivia questions from the database. </p>
 
 
             <h3 className='text-2xl text-[#4CAF50] pt-3 pb-3'>Game Overview</h3>
