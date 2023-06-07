@@ -12,7 +12,7 @@ export default function Nav () {
         <header className='py-2'>
         <div className="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
           
-            <img src="https://sunbizlocal.com/gs.png" width={300} height={64} />
+            <img src="https://sunbizlocal.com/gs.png" alt="project 1" width={300} height={64} />
 
             <FiMenu className="lg:hidden block h-6 w-6 cursor-pointer" onClick={() => setOpen(!open)} />
 
