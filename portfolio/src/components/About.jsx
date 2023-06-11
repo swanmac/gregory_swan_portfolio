@@ -27,8 +27,8 @@ export default function About () {
         <ul>
             <p className='md:text-xl max-w-md mx-auto pb-5'>
             <li>Programming Languages: JavaScript, Html, Python </li>
-            <li>Frameworks: React, Express, Django, Tailwind Css </li>
-            <li>Databases: Postgres, SQL, RESTful APIs </li>
+            <li>Frameworks: React, Express, Django, Tailwind CSS </li>
+            <li>Databases: PostgreSQL, SQL, RESTful APIs </li>
             <li>Developer Tools: Node.js, Git, Github, Visual Studio Code, Postico 2, Insomnia</li></p>
         </ul>
         </div>
