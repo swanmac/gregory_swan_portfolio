@@ -24,7 +24,7 @@ export default function Projects () {
 
         <div className="project p1"> 
         <Link to="/project4"><h3 className='text-2xl'>Metal Geek</h3></Link>
-        <p className='md:text-xl max-w-lg mx-auto pb-5 px-10'>A full-stack application with React (front end) and Django (back end) built with a PostgreSQL database styled with Tailwind CSS.</p>
+        <p className='md:text-xl max-w-lg mx-auto pb-5 px-10'>A full-stack application with React (front end) and Django (back end) built with a PostgreSQL database. Styled with Tailwind CSS.</p>
         <Link to="/project4"><img className='mx-auto flex items-center pt-4 pb-5 w-300 h-220' src="https://sunbizlocal.com/meta.png" alt="project 4" ></img></Link></div>
 
         <br />
