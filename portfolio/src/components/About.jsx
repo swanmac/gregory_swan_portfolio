@@ -19,7 +19,7 @@ export default function About () {
         <div className='pt-20'>
         <h1 className='text-2xl'>About</h1>
         <p className='md:text-xl max-w-md mx-auto pb-5'>
-        Digital marketer turned web developer who brings technical knowledge, enthusiasm and a dedicated work ethic to every team. Trained as a full stack web developer. Provide great value with leadership skills, critical thinking, and efficient solutions.  Exceptional communication and thorough problem solving to create clean, precise code that will make a positive impact.
+        Web developer who brings technical knowledge, enthusiasm and a dedicated work ethic to every team. Trained as a full stack web developer with extensive technical SEO experience. Provide great value with leadership skills, critical thinking, and efficient solutions. Exceptional communication and thorough problem solving to create clean, precise code that will make a positive impact. Focused on continuous learning and development.
         </p>
         </div>
         <div className='pt-10'>
@@ -29,7 +29,7 @@ export default function About () {
             <li>Programming Languages: JavaScript, Html, Python </li>
             <li>Frameworks: React, Express, Django, Tailwind CSS </li>
             <li>Databases: PostgreSQL, SQL, RESTful APIs </li>
-            <li>Developer Tools: Node.js, Git, Github, Visual Studio Code, Postico 2, Insomnia</li></p>
+            <li>Developer Tools: Node.js, Git, Github, Visual Studio Code, Xcode, Postico 2, Insomnia</li></p>
         </ul>
         </div>
     </div>
