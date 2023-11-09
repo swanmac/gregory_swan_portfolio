@@ -25,7 +25,7 @@ export default function Project1 () {
             <br />
 
             <div className="p1bottom md:text-xl pb-20">
-            <h3> <a href="https://perfect-actor12345.surge.sh/" target=" _blank" rel="noopener noreferrer">NA</a></h3>
+            <h3> <a href="https://suncoastlocalmarketing.com/ios-card-deck-swiftui/" target=" _blank" rel="noopener noreferrer">App Preview</a></h3>
             
             <h3> <a href="https://github.com/swanmac/Card-Deck" target=" _blank" rel="noopener noreferrer">GitHub Repository</a></h3>
             
