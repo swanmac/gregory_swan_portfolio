@@ -28,7 +28,7 @@ export default function Nav () {
                 <l1 className='lg:px-5 py-1 block'>
             <Link to="/contact"><h3>Contact</h3></Link></l1>
                 <l1 className='lg:px-5 py-1 block'>
-            <Link to="/greg-swan-resume.pdf" target=" _blank" rel="noopener noreferrer"><h3>Resume</h3></Link></l1>
+            <Link to="/gregory-swan-resume.pdf" target=" _blank" rel="noopener noreferrer"><h3>Resume</h3></Link></l1>
             </ul>
 
             </nav>
