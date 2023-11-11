@@ -9,7 +9,7 @@ export default function Projects () {
             <div className="space-y-8 lg:grid lg:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0 pt-5">
         <div className="project p1">    
         <Link to="/project1"><h3 className='text-2xl'>Card Deck</h3></Link>
-        <p className='md:text-xl max-w-lg mx-auto pb-5 px-10'>Check out this IOS card game created with SwiftUI.</p>
+        <p className='md:text-xl max-w-lg mx-auto pb-5 px-10'>An IOS application Card Game. The application was built with Swift using the SwiftUI.</p>
         <Link to="/project1"><img className='mx-auto flex items-center pt-4 pb-5 w-300 h-220'  src="https://sunbizlocal.com/phone.png" alt="project 1" ></img></Link></div>
 
         <div className="project p2"> 
