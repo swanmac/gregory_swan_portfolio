@@ -19,7 +19,7 @@ export default function About () {
         <div className='pt-20'>
         <h1 className='text-2xl'>About</h1>
         <p className='md:text-xl max-w-md mx-auto pb-5'>
-        Highly skilled Full Stack Developer with a passion for iOS development. Proven expertise in front-end and back-end technologies, with extensive technical SEO experience.  Excels in collaborative environments, bringing a strong foundation in problem-solving and a commitment to delivering high-quality code. Eager to contribute technical proficiency and creative solutions to drive the success of dynamic development projects.
+        Highly skilled Full Stack Developer who brings technical knowledge, enthusiasm and a dedicated work ethic to every team. Proven expertise in front-end and back-end technologies, with extensive technical SEO experience.  Excels in collaborative environments, bringing a strong foundation in problem-solving and a commitment to delivering high-quality code. Eager to contribute technical proficiency and creative solutions to drive the success of dynamic development projects.
         </p>
         </div>
         <div className='pt-10'>
@@ -27,7 +27,7 @@ export default function About () {
         <ul>
             <p className='md:text-xl max-w-md mx-auto pb-5'>
             <li>Programming Languages: JavaScript, Python, Swift, Html, CSS </li>
-            <li>Frameworks: SwiftUI, UIkit, React, Express, Django, Tailwind CSS </li>
+            <li>Frameworks: React, SwiftUI, UIkit, Express, Django, Tailwind CSS </li>
             <li>Databases: PostgreSQL, SQL, RESTful APIs </li>
             <li>Developer Tools: Xcode, Node.js, Git, Github, Visual Studio Code, Postico 2, Postman, Insomnia</li></p>
         </ul>
