@@ -26,7 +26,7 @@ export default function About () {
         <h2 className='text-2xl'>Tech Skills</h2>
         <ul>
             <p className='md:text-xl max-w-md mx-auto pb-5'>
-            <li>Programming Languages: JavaScript, Python, Swift, Html, CSS </li>
+            <li>Programming Languages: JavaScript, Python, Swift, Html5, CSS </li>
             <li>Frameworks: React, SwiftUI, UIkit, Express, Django, Tailwind CSS </li>
             <li>Databases: PostgreSQL, SQL, RESTful APIs </li>
             <li>Developer Tools: Visual Studio Code, Xcode, Node.js, Git, Github, Postico 2, Postman, Insomnia</li></p>
