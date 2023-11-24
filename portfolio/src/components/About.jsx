@@ -19,7 +19,7 @@ export default function About () {
         <div className='pt-20'>
         <h1 className='text-2xl'>About</h1>
         <p className='md:text-xl max-w-md mx-auto pb-5'>
-        Full Stack Developer who brings technical knowledge, enthusiasm and a dedicated work ethic to every team. Proven expertise in front-end and back-end technologies, with extensive technical SEO experience.  Excels in collaborative environments, bringing a strong foundation in problem-solving and a commitment to delivering high-quality code. Eager to contribute technical proficiency and creative solutions to drive the success of dynamic development projects.
+        Full Stack Developer who brings technical knowledge, enthusiasm and a dedicated work ethic to every team. Proven expertise in front-end and back-end technologies, with extensive technical SEO experience.  Excels in collaborative environments, bringing a strong foundation in problem-solving and a commitment to delivering high-quality code. Eager to contribute technical proficiency and creative solutions to drive the success of development projects.
         </p>
         </div>
         <div className='pt-10'>
