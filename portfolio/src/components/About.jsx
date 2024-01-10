@@ -29,7 +29,7 @@ export default function About () {
             <li>Programming Languages: JavaScript, Python, Swift, HTML5, CSS3 </li>
             <li>Frameworks: React, SwiftUI, UIkit, Express, Django, Tailwind CSS </li>
             <li>Databases: PostgreSQL, SQL, RESTful APIs </li>
-            <li>Developer Tools: Visual Studio Code, Xcode, Node.js, Git, Github, Postico 2, Postman, Insomnia</li></p>
+            <li>Developer Tools: VS Code, Xcode, Node.js, Git, Github, Postico 2, Postman, Insomnia, pgAdmin4</li></p>
         </ul>
         </div>
     </div>
