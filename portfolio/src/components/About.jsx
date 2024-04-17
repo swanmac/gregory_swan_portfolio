@@ -27,7 +27,7 @@ export default function About () {
         <ul>
             <p className='md:text-xl max-w-md mx-auto pb-5'>
             <li>Programming Languages: JavaScript, TypeScript, Python, Swift, HTML5, CSS </li>
-            <li>Frameworks: React, SwiftUI, UIkit, Express, Django, WordPress,Tailwind CSS </li>
+            <li>Frameworks: React, SwiftUI, UIkit, Express, Django, WordPress, Tailwind CSS </li>
             <li>Databases: PostgreSQL, SQL, RESTful APIs </li>
             <li>Developer Tools: VS Code, Xcode, Node.js, Git, Github, Postico 2, Postman, Insomnia, pgAdmin4</li></p>
         </ul>
