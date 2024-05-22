@@ -17,7 +17,7 @@ export default function Project1 () {
                 <p className='md:text-xl max-w-lg mx-auto pb-5'>A user will click on the deal button to deal the cards.
                 The game is the player against the CPU.
                 The higher card gets the point.
-                The most points win.</p>
+                The one with the most points win.</p>
 
 
 
