@@ -8,7 +8,7 @@ export default function Introduction () {
         <div className="intro-top">
         <div className="slide-in-left"></div>    
             <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 leading-8'>Gregory Swan</h1>
-            <h2 className='md:text-5xl sm:text-4xl text-2xl font-bold md:py-6'>Full Stack Developer</h2>
+            <h2 className='md:text-5xl sm:text-4xl text-2xl font-bold md:py-6'>Full-Stack Developer</h2>
         </div>
         <div className="intro">
          <p><img className='mx-auto flex items-center' src="https://sunbizlocal.com/gs.jpg" alt="developer" ></img> </p>  
